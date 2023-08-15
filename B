@@ -1,0 +1,19 @@
+pip install -r requirements.txt
+gdown --id <file_id>
+usage: dv_speak.py [-h] [--model MODEL] [--output OUTPUT] [--speed SPEED] text
+
+positional arguments:
+  text                  The text to speak out
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --model MODEL, -m MODEL
+                        Path to downloaded models
+  --output OUTPUT, -o OUTPUT
+                        Output audio path
+  --speed SPEED, -s SPEED
+                        Readout speed
+python3 dv_speak.py --model path_to_models --output out.wav --speed 0.9 "ހެލޯ ދިވެހި"
+streamlit_speak.py
+streamlit run streamlit_speak.py -- -m path_to_model
+1T0RyRKizHMY8r9ZS5Z_fy45TBSXAlNH5
